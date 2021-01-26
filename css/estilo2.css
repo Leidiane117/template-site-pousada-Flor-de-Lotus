@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: roboto;
+}
+body{
+	font-family: roboto;
+    color: dimgray;
+}
+header{
+    background-color: #477998;
+    position: fixed;
+    width: 100%;
+}
+nav{
+    padding: 1% 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 5px 17px;
+	border-radius: 4px;
+	color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+	border-bottom: solid 3px #E5D352;
+	background-color: rgba(237, 218, 166, 0.79);
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.ativo{
+    border-bottom: solid 3px #E5D352;
+}
+
+	
+   figure{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    background-color: #ffffff;
+    margin: 8px auto;
+    border-bottom: 25px solid #ffffff;
+    border-top: 6px solid #ffcb37;
+    border-bottom-style: groove;
+    border-top-style: groove;
+  }	
+	section{
+  padding-top:85px;		
+		
+		
+		
+	}
+	figure ul li{
+	margin-left:35px;
+	padding:15px;
+	font-size:110%;
+	}
+	
+	figure img{
+     width:50%;
+	 border-radius:15px;
+	 
+		
+		
+	}
+	
+	figcaption{
+	padding:15px;
+	font-size:130%;
+	text-align:center;
+	
+	}
+	button, .link a{
+    background-color: #ffcb37;
+    border: solid 2px #ffcb37;
+    text-align: center;
+    padding: 15px 5px;
+    border-radius: 6px;
+    text-decoration: none;
+	margin-left:15px;
+   
+}
+
+button:hover, .link a:hover{
+    background-color: white;
+    color: #477998;
+}
+
+.contatos img{
+    width: 30px;
+    height: 30px;
+	background-color: #477998;
+}
+
+.contatos{
+    
+    background-color: #477998;
+    padding: 30px 10px;
+    padding: 15px 70px;
+}
+
+
+
+.contatos p{
+    background-color: #477998;
+    color: white;
+    padding-bottom: 15px;
+text-align:left;
+
+    padding-left: 30px;
+}
+
+
+footer{
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 3px 3px 3px gray;
+	background-color: white;
+	padding: 30px 0;
+}
+
+footer img{
+    width: 35px;
+    padding: 10px 0px;
+}
+
+.legenda b{
+    display: flex;
+    font-size: 89px;
+    justify-content: center;
+    color: #b76602;
+    position: relative;
+    z-index: -1;
+    top: 88px;
+}
+.legenda i{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 81px;
+    font-size: 19px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    color: #3258af;
+}
+.legenda img{
+    margin-left: 444px;
+    width: 45px;
+    position: relative;
+    top: -3px;
+    z-index: -1;
+}
+
+.preco i{
+    text-decoration-line: line-through;
+}
+.preco b{
+        font-size: -webkit-xxx-large;
+    color: #26b10c;
+}
