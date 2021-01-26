@@ -1,0 +1,344 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: roboto;
+}
+
+body{
+	font-family: roboto;
+    color: dimgray;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+
+header{
+    background-color: #477998;
+    position: fixed;
+    width: 100%;
+}
+nav{
+    padding: 1% 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 5px 17px;
+	border-radius: 4px;
+	color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+	border-bottom: solid 3px #E5D352;
+	background-color: rgba(237, 218, 166, 0.79);
+}
+
+.ativo{
+    border-bottom: solid 3px #E5D352;
+}
+
+.banner{
+	background-image: url(../imagem/23360833.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 1365px;
+}
+
+.banner h1{
+	color: white;
+	text-shadow: 3px 3px 3px #477998;
+	text-align: center;
+	padding-top: 500px;
+    font-size: 40px;
+    display: none;
+   
+}
+
+.doh1{
+    background-color: rgba(0,0,0,0.10);
+    height: 1365px;
+    
+}
+
+.banner p{
+	color: white;
+	text-shadow: 2px 2px 2px #477998;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 400px;
+    font-size: 20px;
+    display: none;
+}
+
+h3{
+    color: #477998;
+    text-align: center;
+    text-shadow: 2px 2px 4px white;
+    margin: 20px 0px;
+    font-size: 20pt;
+}
+.container .texto{
+
+text-align:justify;
+color: #01152B;
+margin-bottom: 25px;
+line-height: 25px;;
+}
+
+.dquartos, .dvalores{
+display: flex;
+justify-content: space-between;
+margin:auto;
+margin-bottom: 10px;
+
+}
+
+.valores {
+text-align: center;
+margin: 5px 10px;
+width: 300px;
+}
+
+.valores p{
+    line-height: 25px;
+    text-align: justify;
+}
+
+section{
+	margin-bottom: 0;
+    background-color: #F3EFE0;
+    padding: 40px 0;
+}
+
+section h2{
+	text-align: center;
+    font-size: 22px;
+    color: white;
+    padding: 40px 0;
+    margin-bottom: 50px;
+    background-color: #477998;
+}
+
+section .imagens{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.imagens .texto{
+	width: 550px;
+	text-align: justify;
+}
+
+.imagens h3{
+	text-align: center;
+	padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.imagens .texto p{
+	line-height: 1.5;
+	padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.servico{
+    width: 49%;
+    padding-top: 50px;
+}
+.servico .divser{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.servico .ser img{
+    width: 200px;
+    padding: 20px;
+}
+
+.imagens .imagem{
+	width: 550px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.imagens img{
+	width: 100%;
+    border-radius: 5px;
+
+    
+}
+
+.imagens p{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+    
+}
+
+
+
+
+.contatos{
+    
+    background-color: #477998;
+    padding: 30px 10px;
+    padding: 15px 70px;
+}
+
+.contatos img{
+    width: 30px;
+    height: 30px;
+}
+
+.contatos p{
+    
+    color: white;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+footer{
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 3px 3px 3px gray;
+	background-color: white;
+	padding: 30px 0;
+}
+
+footer img{
+    width: 35px;
+    padding: 10px 0px;
+}
+
+
+/*medias queries TABLET*/
+@media (max-width: 1169px){
+    nav{
+        width: 768px;
+    }
+    .container{
+        width: 720px;
+    }
+    .dvalores, .ser img{
+        width:600px;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    section{
+        
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .imagens{
+        flex-direction: column;
+        
+    }
+    .noticias{
+        flex-direction: column;
+    }
+    .direita{
+        margin: auto;
+    }
+    
+    h2{
+        width: 100%;
+    }
+    
+    .divser{
+        flex-direction: row;
+        margin: auto;
+    }
+    
+    .esquerda{
+        margin: auto;
+    }
+    
+}
+
+
+/*medias queries SMART*/
+@media (max-width: 767px){
+    nav{
+        width:320px;
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+         margin: auto;
+        width: 200px;
+        display: none;
+}
+    .menu li{
+        padding: 5px;
+    }
+    
+    section{
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .dvalores, .servico{
+      
+        
+        flex-direction: column;
+    }
+    
+    .divser{
+        flex-direction: column;
+        width:420px;
+        margin: auto;
+    }
+    
+    .ser{
+        margin: auto;
+    }
+    
+    .container .texto, .imagens{
+        width: 450px;
+        
+    }
+    
+    .mvvcontainer{
+        flex-direction: column;
+    }
+    
+    
+    
+
+}

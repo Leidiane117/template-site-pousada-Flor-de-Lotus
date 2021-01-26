@@ -1,0 +1,86 @@
+.banner{
+	background-image: url(../imagem/1279Hotel_Pousada_Pe_na_Areia_Juquehy_Sao_Sebastiao_Louise_Louis_Vilage_58.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 1000px;
+}
+
+.banner h1{
+	color: white;
+	text-shadow: 3px 3px 3px #477998;
+	text-align: center;
+	padding-top: 500px;
+    font-size: 40px;
+    display: none;
+}
+
+.doh1{
+    background-color: rgba(0,0,0,0.10);
+    height: 1365px;
+    
+}
+
+.banner p{
+	color: white;
+	text-shadow: 2px 2px 2px #477998;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 400px;
+    font-size: 18px;
+    display: none;
+}
+
+h2{
+	text-align: center;
+    font-size: 22px;
+    color: white;
+    padding: 40px 0;
+    margin-bottom: 50px 0px;
+    background-color: #477998;
+}
+section{
+        padding: 15px 100px;
+}
+
+
+.texto{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 14pt;
+    padding-top: 40px;
+}
+
+
+.mvvcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 15px 100px;
+}
+
+.mvv img{
+    width: 250px;
+}
+
+.mvv {
+    text-align: center;
+    margin: 10px 0px;
+    width: 200px;
+}
+
+.mvv p{
+    line-height: 25px;
+    text-align: justify;
+    margin: 10px 0px;
+    padding-left: 30px;
+}
+
+h4{
+    color: #477998;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 20px;
+}
+
+
