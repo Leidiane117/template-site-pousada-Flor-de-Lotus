@@ -6,22 +6,6 @@
 ## Projeto desenvolvido com proposito de ser um template de aplicação para um site de uma Pousada
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-# PROJETO MODELO PARA TESTE WEB 
-
-Projeto desenvolvido com proposito de ser um modelo base para teste para interface web
-
-## PRÉ-REQUISITOS
-
-Requisitos de software e hardware necessários para executar este projeto de automação
-
-*   Java 1.8 SDK
-*   Maven 3.5.*
-*   Navegador Web (Chrome, Opera, FireFox, Edge ou Safari)
-*   Intellij IDE
-*   Plugins do Intellij
-    * Cumcuber for java
-    * Lombok
-    * Ideolog 
 
 ## ESTRUTURA DO PROJETO
 
@@ -47,24 +31,15 @@ Requisitos de software e hardware necessários para executar este projeto de aut
 
 | Diretório                    	| finalidade       	                                                                                        | 
 |------------------------------	|---------------------------------------------------------------------------------------------------------- |
-
-| css                            | Responsável pela estilização das páginas do site |
-
-| imagem                         | Responsável pelo armazenamento das imagens das páginas do site |
-
-| js                             | Responsável pela criação de funções e utilização da biblioteca Jquery para as páginas do site |
-
-| acomodacoesPousada.html-       | Página responsável pela visualização das acomodações da pousada |
-
-| fotosPousada.html-             | Página responsável pela visuzalização das fotos da pousada |
-
-| index.html                     | Página principal do site |
-
-| localizacaoPousada.html        | Página responsável por informar a localização da pousada utilizando Google Maps |
-
-| reservasonline.html            | Página responsável por fazer as reservas online da pousada |
-
-| sobreNos.html                  |Página responsável por informar sobre a pousada |
+| css                            | Responsável pela estilização das páginas do site                                                          |
+| imagem                         | Responsável pelo armazenamento das imagens das páginas do site                                            |
+| js                             | Responsável pela criação de funções e utilização da biblioteca Jquery para as páginas do site             |
+| acomodacoesPousada.html-       | Página responsável pela visualização das acomodações da pousada                                           |
+| fotosPousada.html-             | Página responsável pela visuzalização das fotos da pousada                                                |
+| index.html                     | Página principal do site                                                                                  |
+| localizacaoPousada.html        | Página responsável por informar a localização da pousada utilizando Google Maps                           |
+| reservasonline.html            | Página responsável por fazer as reservas online da pousada                                                |
+| sobreNos.html                  | Página responsável por informar sobre a pousada                                                            |
 
 
 ## FERRAMENTAS UTILIZADAS
