@@ -29,4 +29,4 @@ Sistema Operacional ------------------------- Linux Ubuntu 20.4
 
 
 
- ![Pousada](imagem/Captura de tela de 2021-02-06 21-22-42.png)
+ ![Pousada](imagem/pousada.png)
