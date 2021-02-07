@@ -6,29 +6,66 @@
 ## Projeto desenvolvido com proposito de ser um template de aplicação para um site de uma Pousada
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+# PROJETO MODELO PARA TESTE WEB 
+
+Projeto desenvolvido com proposito de ser um modelo base para teste para interface web
+
+## PRÉ-REQUISITOS
+
+Requisitos de software e hardware necessários para executar este projeto de automação
+
+*   Java 1.8 SDK
+*   Maven 3.5.*
+*   Navegador Web (Chrome, Opera, FireFox, Edge ou Safari)
+*   Intellij IDE
+*   Plugins do Intellij
+    * Cumcuber for java
+    * Lombok
+    * Ideolog 
+
+## ESTRUTURA DO PROJETO
+
+| Diretório                    	| finalidade       	                                                                                        | 
+|------------------------------	|---------------------------------------------------------------------------------------------------------- |
+| src\main\java\config 			| Interface com as propriedades dos arquivos de ambiente 'Properties'                                       |
+| src\main\java\data    		| Reponsável por ler arquivos yaml file e retonar objeto HashMap com os valores dos campos                  |
+| src\main\java\dates 			| Metodos de suporte para trabalhar com datas                                                              	|
+| src\main\java\driver 			| Responsável por fabricar os drivers para rodar local e remoto para varios navegadores                    	|
+| src\main\java\pages			| Local onde deve ser criado as pages objects para facilitar a manutenção do projeto                       	|
+| src\main\java\report			| Metodo responsável pela criação de screenshot anexada no Report Alure                                		|
+| src\main\java\support			| Metodos de suporte a interação com os elementos web fazendo ações de click e esperas explicitas          	|
+| src\main\resources\conf	    | Arquivos de configuração segregados por ambiente                                                        	|
+| src\test\java\hooks          	| Metodos que executam antes e depois de cada teste (@Before, @After)                                   	|
+| src\test\java\runner         	| Metodo prinicipal que inicia os testes via cucumber                                                      	|
+| src\test\java\steps         	| Local onde deve ser criado as classes que representam os steps definition do cucumber                    	|
+| src\test\resources\data      	| Massa de dados segregada por ambiente, escritos em arquivos yaml                                      	|
+| src\test\resources\features 	| Funcionalidade e cenários de teste escritos em linguagem DSL (Gherkin language)                        	|   
+    
 
 
 ## ESTRUTURA DO PROJETO 
 
-css  ---------------------------Responsável pela estilização das páginas do site
+|------------------------------	|---------------------------------------------------------------------------------------------------------- |
 
-imagem  -----------------------	Responsável pelo armazenamento das imagens das páginas do site 
+| css                            | Responsável pela estilização das páginas do site |
 
-js ---------------------------- Responsável pela criação de funções e utilização da biblioteca Jquery para as páginas do site
+| imagem                         | Responsável pelo armazenamento das imagens das páginas do site |
 
-acomodacoesPousada.html-------------------- Página responsável pela visualização das acomodações da pousada
+| js                             | Responsável pela criação de funções e utilização da biblioteca Jquery para as páginas do site |
 
-fotosPousada.html-------------------------- Página responsável pela visuzalização das fotos da pousada
+| acomodacoesPousada.html-       | Página responsável pela visualização das acomodações da pousada |
 
-index.html--------------------------------- Página principal do site
+| fotosPousada.html-             | Página responsável pela visuzalização das fotos da pousada |
 
-localizacaoPousada.html-------------------- Página responsável por informar a localização da pousada utilizando Google Maps
+| index.html                     | Página principal do site |
 
-reservasonline.html------------------------ Página responsável por fazer as reservas online da pousada
+| localizacaoPousada.html        | Página responsável por informar a localização da pousada utilizando Google Maps |
 
-sobreNos.html------------------------------ Página responsável por informar sobre a pousada
+| reservasonline.html            | Página responsável por fazer as reservas online da pousada |
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| sobreNos.html                  |Página responsável por informar sobre a pousada |
+
+|------------------------------	|---------------------------------------------------------------------------------------------------------- |
 
 ## FERRAMENTAS UTILIZADAS
 
