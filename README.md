@@ -1,7 +1,4 @@
 # TEMPLATE PARA O SITE POUSADA FLOR DE LÓTUS 🌷
-   Html5, CSS3, Bootstrap e Jquery
-
-
 
 ## Projeto desenvolvido com proposito de ser um template de aplicação para um site de uma Pousada
 
