@@ -45,6 +45,7 @@ Requisitos de software e hardware necessários para executar este projeto de aut
 
 ## ESTRUTURA DO PROJETO 
 
+| Diretório                    	| finalidade       	                                                                                        | 
 |------------------------------	|---------------------------------------------------------------------------------------------------------- |
 
 | css                            | Responsável pela estilização das páginas do site |
@@ -65,7 +66,6 @@ Requisitos de software e hardware necessários para executar este projeto de aut
 
 | sobreNos.html                  |Página responsável por informar sobre a pousada |
 
-|------------------------------	|---------------------------------------------------------------------------------------------------------- |
 
 ## FERRAMENTAS UTILIZADAS
 
